@@ -1,0 +1,64 @@
+/*Selector {
+	Property:  value;
+}*/
+
+body{
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2, p{
+	color: #AA4139;
+	text-align: center;
+	/*border: 2px solid purple;*/
+	border: 2px solid rgb(255, 176, 170, 1);
+	/*the last one is transparency between 0 to 1); */
+	cursor: pointer;
+}
+
+img{
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+p{
+	text-decoration: line-through;
+	text-transform: uppercase;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 80%;
+	font-family: "Times New Roman", Georgia;
+}
+
+
+.p1:hover{
+	color: pink;
+}
+
+.p2{
+	color: green;
+}
+
+.p3{
+	color: blue;
+}
+
+.active{
+	color: red;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+#div1
+{
+	background: rgba(0, 0, 255, 0.1);
+}
